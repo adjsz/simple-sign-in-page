@@ -1,0 +1,43 @@
+body{
+    background-color: #F4F8FB;
+    color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.username, .password{
+    background-color: #FFFFFF;
+    border: 2px solid #D0D7E2;
+    border-radius: 10px;
+
+}
+
+.SignInCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+
+}
+
+form{
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.SignInButton{
+    color: #FFFFFF;
+    background: #2563EB;
+    border: 2px solid #2563EB;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.SignInButton:hover{
+    background: #1D4ED8;
+    border-color: #1D4ED8;
+}
