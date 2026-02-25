@@ -49,3 +49,8 @@ a {
 a:hover {
     color: #1D4ED8;
 }
+
+.username:focus, .password:focus {
+    outline: none;               /* removes default blue outline */
+    border-color: #888;
+}
